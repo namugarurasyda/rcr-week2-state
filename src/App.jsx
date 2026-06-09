@@ -3,6 +3,8 @@ import './App.css'
 import  { Counter }  from './components/Counter'
 import { CounterArrowfunc}  from './components/CounterArrowfunc'
 import { LoginCard } from './components/LoginCard'
+import { SimpleCounter } from './components/SimpleCounter'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -13,7 +15,7 @@ function App() {
         <Counter />
         <CounterArrowfunc />
         <LoginCard />
-
+        <SimpleCounter />
       </div>
 
     </>
