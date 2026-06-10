@@ -16,7 +16,7 @@ function App() {
         {/* <Counter /> */}
         {/* <CounterArrowfunc /> */}
          {/* <LoginCard /> */}
-         <SimpleCounter /> 
+         {/*<SimpleCounter />  */}
          <WithoutCounter />
       </div>
 

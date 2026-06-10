@@ -1,12 +1,13 @@
 import { useState } from 'react'; // Not being used here!
 
 export const WithoutCounter = () => {
-  // 1. Define a regular local variable
-  let count = 0;
+
+    const [count, setCount] = useState(0);
+
 
   // 2. Define the click handler function
   const handleClick = () => {
-    count = count + 1; 
+       setCount(count + 1); // This will update the state, but the component won't re-render to reflect the change
     console.log("Count in console:", count); // This will increase (1, 2, 3...)
   };
 
