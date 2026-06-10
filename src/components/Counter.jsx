@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 export const Counter = () => {
 
-  //currentValue,setterfunction = useState(initialValue)
+  
   const [count, setCount] = useState(0);
   console.log('Counter rendered with count:', count);
 
