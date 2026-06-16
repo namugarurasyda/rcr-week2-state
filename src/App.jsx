@@ -5,6 +5,7 @@ import  { Counter }  from './components/Counter'
 // import { LoginCard } from './components/LoginCard'
 import { SimpleCounter } from './components/SimpleCounter'
 import { WithoutCounter } from './components/WithoutUseState'
+import { ProductList } from './components/ProductList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
          {/* <LoginCard /> */}
          {/*<SimpleCounter />  */}
          <WithoutCounter />
+         <ProductList />  
       </div>
 
     </>
