@@ -43,7 +43,8 @@ export const ProductList = () => {
       <h2>Our Products</h2>
       {products.map((product) => {
         return (
-          <div key={product.id}>
+        //   <div key={product.id}>
+        <div>
             <h3>{product.name}</h3>
             <p>Price: ${product.price}</p>
           </div>
@@ -52,3 +53,24 @@ export const ProductList = () => {
     </div>
   );
 };
+
+
+
+// const productElements = products.map((product) => {
+//   return (
+//     <div>
+//       <h3>{product.name}</h3>
+//       <p>Price: ${product.price}</p>
+//     </div>
+//   );
+// });
+
+//  In the return {productElements}
+
+
+
+// We can add the filter
+// const productElements = products
+//   .filter((product) => {
+//     return product.price > 500;
+//   })
