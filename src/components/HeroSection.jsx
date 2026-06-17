@@ -38,7 +38,7 @@ export default function Example() {
               </div>
               <dt className="mt-4 text-base font-semibold text-white">Weekly articles</dt>
               <dd className="mt-2 text-base/7 text-gray-400">
-                Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.
+                You will receive weekly articles on the latest trends and insights in the industry, keeping you informed and ahead of the curve.
               </dd>
             </div>
             <div className="flex flex-col items-start">
