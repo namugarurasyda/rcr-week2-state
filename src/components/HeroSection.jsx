@@ -47,7 +47,7 @@ export default function Example() {
               </div>
               <dt className="mt-4 text-base font-semibold text-white">No spam</dt>
               <dd className="mt-2 text-base/7 text-gray-400">
-                Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.
+                We respect your privacy and will never send you spam. You can unsubscribe at any time, and we will never share your email address with third parties.
               </dd>
             </div>
           </dl>
