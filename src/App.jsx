@@ -7,7 +7,7 @@ import { SimpleCounter } from './components/SimpleCounter'
 import { WithoutCounter } from './components/WithoutUseState'
 import { ProductList } from './components/ProductList'
 import UserProfile from './components/UserProfile'
-import Example from './components/HeroSection'
+import HeroSection from './components/HeroSection'
 import MyComponent from './components/UseCounter'
 <link href="/src/style.css" rel="stylesheet"></link>
 
