@@ -8,7 +8,7 @@ export default function Example() {
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-4xl font-semibold tracking-tight text-white">Subscribe to our newsletter</h2>
             <p className="mt-4 text-lg text-gray-300">
-              Reach out to us for any inquiries or questions you may have. Our team is here to assist you and provide the information you need.
+              Reach out to us for any inquiries or questions you may have.
             </p>
             <div className="mt-6 flex max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
