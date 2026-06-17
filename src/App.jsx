@@ -7,12 +7,17 @@ import { SimpleCounter } from './components/SimpleCounter'
 import { WithoutCounter } from './components/WithoutUseState'
 import { ProductList } from './components/ProductList'
 import UserProfile from './components/UserProfile'
+import Example from './components/HeroSection'
+import MyComponent from './components/UseCounter'
+<link href="/src/style.css" rel="stylesheet"></link>
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <> 
+      <Example /> 
+{/* 
       <h1> Welcome to Research Code Respond</h1>
       <div>
         {/* <Counter /> */}
@@ -20,10 +25,17 @@ function App() {
          {/* <LoginCard /> */}
          {/*<SimpleCounter />  */}
          {/* <WithoutCounter />
-         <ProductList />   */}
-          <UserProfile /> 
+           */}
+          {/* <UserProfile /> */}
+          {/* <ProductList />  */}
+          {/* <MyComponent />  */}
+           <h1 class="text-3xl font-bold underline">
+               Hello world!
+          </h1>
+          <h1>Hello World</h1> 
+ 
 
-      </div>
+      {/* </div> */}
 
     </>
   )

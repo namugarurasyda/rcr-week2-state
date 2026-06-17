@@ -43,11 +43,14 @@ export const ProductList = () => {
       <h2>Our Products</h2>
       {products.map((product) => {
         return (
-        //   <div key={product.id}>
+            
+         <div key={product.id}>
         <div>
             <h3>{product.name}</h3>
             <p>Price: ${product.price}</p>
           </div>
+          </div>
+          
         );
       })}
     </div>
