@@ -1,4 +1,4 @@
-export default function E() {
+export default function Header() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
