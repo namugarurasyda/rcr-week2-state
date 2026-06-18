@@ -15,6 +15,17 @@ export const Counter = () => {
 
   };
 
-  return <button onClick={handleClick}>Count: {count}</button>;
+  const handleClickminus = () => {
+    setCount(count - 1);
+
+  };
+
+  return (
+    <div>
+      <button onClick={handleClick}>+</button>
+      <span>Count: {count}</span>
+      <button onClick={handleClickminus}>-</button>
+    </div>
+  );
 };
 
