@@ -9,6 +9,7 @@ import { ProductList } from './components/ProductList'
 import UserProfile from './components/UserProfile'
 import HeroSection from './components/HeroSection'
 import MyComponent from './components/UseCounter'
+import Header from './components/Header'
 <link href="/src/style.css" rel="stylesheet"></link>
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return (
     <> 
       <HeroSection /> 
+
 {/* 
       <h1> Welcome to Research Code Respond</h1>
       <div>
