@@ -18,6 +18,7 @@ function App() {
   return (
     <> 
       <HeroSection /> 
+      <Header />
 
 {/* 
       <h1> Welcome to Research Code Respond</h1>
