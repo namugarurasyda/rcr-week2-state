@@ -31,7 +31,7 @@ export default function Header() {
                 {' '}
                 Get started{' '}
               </a>
-              <a href="#" className="text-sm/6 font-semibold text-white hover:text-gray-100">
+              <a href="https://namugarurasyda.vercel.app/" className="text-sm/6 font-semibold text-white hover:text-gray-100">
                 Learn more
                 <span aria-hidden="true">→</span>
               </a>
