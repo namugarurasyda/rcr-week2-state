@@ -29,7 +29,7 @@ export default function Header() {
                 className="rounded-md bg-gray-900 px-3.5 py-2.5 text-sm font-semibold text-gray-300 shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 {' '}
-                Get started{' '}
+               Let Get started{' '}
               </a>
               <a href="https://namugarurasyda.vercel.app/" className="text-sm/6 font-semibold text-white hover:text-gray-100">
                 Learn more
