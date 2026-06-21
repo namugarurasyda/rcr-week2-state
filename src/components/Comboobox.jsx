@@ -1,7 +1,7 @@
 // Change your imports to look like this:
 import { Combobox, ComboboxButton, ComboboxInput, ComboboxOption, ComboboxOptions, Label, Field } from '@headlessui/react'
 
-function Combobox({ currentUser, users }) {
+function MyCombobox({ currentUser, users }) {
   return (
     <Field>
       <Label>Assigned to</Label>
@@ -21,4 +21,4 @@ function Combobox({ currentUser, users }) {
   )
 }
 
-export default Combobox;
+export default MyCombobox;
