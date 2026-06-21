@@ -13,14 +13,23 @@ import Header from './components/Header'
 <link href="/src/style.css" rel="stylesheet"></link>
 import  MyCombobox  from './components/Comboobox'
 
+
 function App() {
   const [count, setCount] = useState(0)
+  const usersList = [
+    { id: 1, name: 'Wade Cooper' },
+    { id: 2, name: 'Arlene Mccoy' },
+    { id: 3, name: 'Devon Webb' },
+    { id: 4, name: 'Tom Cook' },
+  ]
+
+  const activeUser = usersList[0]
 
   return (
     <> 
       <HeroSection /> 
       <Header />
-      <MyCombobox />
+     <MyCombobox currentUser={someUser} users={yourUsersArrayData} />
 
 {/* 
       <h1> Welcome to Research Code Respond</h1>
