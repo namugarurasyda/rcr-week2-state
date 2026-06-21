@@ -29,7 +29,7 @@ function App() {
     <> 
       <HeroSection /> 
       <Header />
-     <MyCombobox currentUser={someUser} users={yourUsersArrayData} />
+     <MyCombobox currentUser={activeUser} users={usersList} />
 
 {/* 
       <h1> Welcome to Research Code Respond</h1>
