@@ -1,7 +1,7 @@
 import { Combobox, ComboboxLabel, ComboboxOption } from '@/components/combobox'
 import { Field, Label } from '@/components/fieldset'
 
-function Example({ currentUser, users }) {
+function combobox({ currentUser, users }) {
   return (
     <Field>
       <Label>Assigned to</Label>
@@ -15,3 +15,4 @@ function Example({ currentUser, users }) {
     </Field>
   )
 }
+export default combobox;
