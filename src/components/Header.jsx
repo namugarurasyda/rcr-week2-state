@@ -20,13 +20,13 @@ export default function Header() {
             <h2 className="text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
               Boost your productivity. Start using our app today.
             </h2>
-            <p className="mt-6 text-lg/8 text-pretty text-gray-300">
+            <p className="mt-6 text-lg/8 text-pretty text-white-300">
               A comprehensive solution for managing your projects, tasks, and team collaboration. Our app is designed to help you stay organized, meet deadlines, and achieve your goals with ease. Whether you're a small team or a large organization, our app has the features you need to succeed.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
                 href="https://github.com/namugarurasyda"
-                className="rounded-md bg-gray-900 px-3.5 py-2.5 text-sm font-semibold text-gray-300 shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                className="rounded-md bg-gray-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 {' '}
                Let Get started{' '}
