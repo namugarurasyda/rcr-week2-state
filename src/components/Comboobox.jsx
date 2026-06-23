@@ -4,7 +4,7 @@ import { Combobox, ComboboxButton, ComboboxInput, ComboboxOption, ComboboxOption
 function MyCombobox({ currentUser, users }) {
   return (
     <Field>
-      <Label>Assigned to</Label>
+      <Label>Assigned To :</Label>
       {/* Headless UI expects slightly different structures (Input + Options wrapper) */}
       <Combobox defaultValue={currentUser}>
         <ComboboxInput displayValue={(user) => user?.name} />
