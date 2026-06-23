@@ -21,7 +21,7 @@ export default function Header() {
               Boost your productivity. Start using our app today.
             </h2>
             <p className="mt-6 text-lg/8 text-pretty text-white-300">
-              A comprehensive solution for managing your projects, tasks, and team collaboration. Our app is designed to help you stay organized, meet deadlines, and achieve your goals with ease. Whether you're a small team or a large organization, our app has the features you need to succeed.
+              A comprehensive solution for managing your projects, tasks, and team collaboration and partnership. Our app is designed to help you stay organized, meet deadlines, and achieve your goals with ease. Whether you're a small team or a large organization, our app has the features you need to succeed.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
