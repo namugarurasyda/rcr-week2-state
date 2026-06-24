@@ -1,6 +1,6 @@
 import React from 'react'
 
-import syda from '../assets/syda.png'
+import syda from '../../assets/syda.png'
 
 export default function Header() {
   return (
